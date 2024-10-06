@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.js">
+    <title>weather app </title>
+</head>
+
+<body>
+    <script>
+        let weather =["karachi","lahore","islamabad","muree","malam jabba","peshawar"]
+        let userinput=prompt(`Enter your city name in following
+        karachi
+        lahore
+        peshawar
+        malam jabba
+        muree
+        islamabad`)
+if (userinput===weather[0]) {
+    document.write(`    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="assets/image/search.png"></button>
+        </div>
+        <div class="weather">
+            <img src="assets/image/sunny.png" class="weather-icon" alt="">
+            <h1 class="temp">33°C</h1>
+            <h2 class="city">Karachi</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="assets/image/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">76%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="assets/image/wind.png" alt="">
+                    <div>
+                        <p class="wind">14 km/h</p>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+`);
+    
+}
+else if(userinput===weather[1]) {
+    document.write(`    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="assets/image/search.png"></button>
+        </div>
+        <div class="weather">
+            <img src="assets/image/clouds.png" class="weather-icon" alt="">
+            <h1 class="temp">31°C</h1>
+            <h2 class="city">Lahore</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="assets/image/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="assets/image/wind.png" alt="">
+                    <div>
+                        <p class="wind">50 km/h</p>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+`);
+    
+}
+else if(userinput===weather[3]) {
+    document.write(`    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="assets/image/search.png"></button>
+        </div>
+        <div class="weather">
+            <img src="assets/image/mist.png" class="weather-icon" alt="">
+            <h1 class="temp">17°C</h1>
+            <h2 class="city">Muree</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="assets/image/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="assets/image/wind.png" alt="">
+                    <div>
+                        <p class="wind">50 km/h</p>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+`);
+    
+}
+else if(userinput===weather[2]) {
+    document.write(`    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="assets/image/search.png"></button>
+        </div>
+        <div class="weather">
+            <img src="assets/image/drizzle.png" class="weather-icon" alt="">
+            <h1 class="temp">30°C</h1>
+            <h2 class="city">ISLAMABAD</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="assets/image/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="assets/image/wind.png" alt="">
+                    <div>
+                        <p class="wind">50 km/h</p>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+`);
+    
+}
+else if(userinput===weather[4]) {
+    document.write(`    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="assets/image/search.png"></button>
+        </div>
+        <div class="weather">
+            <img src="assets/image/snow.png" class="weather-icon" alt="">
+            <h1 class="temp">18°C</h1>
+            <h2 class="city">Malam jabba</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="assets/image/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="assets/image/wind.png" alt="">
+                    <div>
+                        <p class="wind">50 km/h</p>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+`);
+    
+}
+else if(userinput===weather[5]) {
+    document.write(`    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="assets/image/search.png"></button>
+        </div>
+        <div class="weather">
+            <img src="assets/image/clear.png" class="weather-icon" alt="">
+            <h1 class="temp">31°C</h1>
+            <h2 class="city">Peshawar</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="assets/image/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="assets/image/wind.png" alt="">
+                    <div>
+                        <p class="wind">50 km/h</p>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+`);
+    
+}
+
+else{
+        document.write(`    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="assets/image/search.png"></button>
+        </div>
+        <div class="weather">
+            <img src="assets/image/404.png" class="weather-icon" alt="">
+            <h3 class="city">Please Enter Valid City</h3>
+        </div>
+    </div>
+`);
+
+}
+    </script>
+</body>
+
+</html>
